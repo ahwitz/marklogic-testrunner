@@ -1,7 +1,7 @@
 # Lightweight MarkLogic test runner
 
 This was created because of two problems:
-1) The only standardized test suite for MarkLogic is Roxy (or the new @marklogic-community/marklogic-unit-test offshoot), which requires a TON of things to be placed in _exactly_ the same location.
+1) The only standardized test suite for MarkLogic is Roxy or [this offshoot](https://github.com/marklogic-community/marklogic-unit-test), which requires a TON of things to be placed in _exactly_ the right location.
 2) MarkLogic `require` in SJS doesn't really work out of the box with node modules.
 
 By lightweight, this repo requires the [`chai` assertion library](https://www.chaijs.com/), but after that has only a single XQuery file that exposes the following endpoint:
